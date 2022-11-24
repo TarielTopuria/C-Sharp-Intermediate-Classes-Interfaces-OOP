@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace C_Sharp_Intermediate_Classes_Interfaces_OOP
+﻿namespace C_Sharp_Intermediate_Classes_Interfaces_OOP
 {
     public class Post
     {
@@ -16,7 +10,7 @@ namespace C_Sharp_Intermediate_Classes_Interfaces_OOP
         public static void UpVote()
         {
             Votes++;
-        } 
+        }
 
         public static void DownVote()
         {
@@ -43,4 +37,4 @@ namespace C_Sharp_Intermediate_Classes_Interfaces_OOP
             return Votes;
         }
     }
-} 
+}
